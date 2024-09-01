@@ -31,8 +31,8 @@ const MainLayout = ({ children }: { children: React.ReactNode }) => {
         id="nav"
         ref={panelRef}
         defaultSize={18}
-        minSize={10}
-        maxSize={22}
+        minSize={17}
+        maxSize={19}
         className="h-[100vh]"
         collapsible
       >
@@ -42,7 +42,7 @@ const MainLayout = ({ children }: { children: React.ReactNode }) => {
       <ResizablePanel defaultSize={82}>
         <main className="flex h-[100vh] w-full flex-col overflow-y-scroll">
           <Navbar />
-          <div className="mt-20">{children}</div>
+          <div>{children}</div>
         </main>
       </ResizablePanel>
     </ResizablePanelGroup>
