@@ -7,21 +7,25 @@ import {
 } from "@/components/ui/resizable";
 import { Navigation } from "@/app/(main)/_components/navigation";
 import { Navbar } from "@/app/(main)/_components/navbar";
-import {  useRef } from "react";
+import { useState, useRef } from "react";
 import { ImperativePanelHandle } from "react-resizable-panels";
+import { Toggle } from "./_components/toggle";
 
 const MainLayout = ({ children }: { children: React.ReactNode }) => {
   const panelRef = useRef<ImperativePanelHandle>(null);
+  const [isCollapsed, setIsCollapsed] = useState<boolean>(false);
   const collapsePanel = () => {
     const panel = panelRef.current;
     if (panel) {
       panel.collapse();
+      setIsCollapsed(true);
     }
   };
   const expandPanel = () => {
     const panel = panelRef.current;
     if (panel) {
       panel.expand();
+      setIsCollapsed(false);
     }
   };
 
@@ -38,9 +42,9 @@ const MainLayout = ({ children }: { children: React.ReactNode }) => {
       >
         <Navigation  />
       </ResizablePanel>
-      <ResizableHandle withHandle />
       <ResizablePanel defaultSize={82}>
         <main className="flex h-[100vh] w-full flex-col overflow-y-scroll">
+          <Toggle isCollapsed={isCollapsed} expandPanel={expandPanel} collapsePanel={collapsePanel}/>
           <Navbar />
           <div>{children}</div>
         </main>
