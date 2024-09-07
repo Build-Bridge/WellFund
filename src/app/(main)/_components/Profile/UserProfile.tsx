@@ -28,56 +28,56 @@ const UserProfile: React.FC = () => {
           </h2>
 
           <div>
-            <div className="flex items-center justify-between">
-              <div className="my-3">
+            <div className="flex items-center justify-between gap-10">
+              <div className="my-3 w-full">
                 <label className="font-bold leading-6 text-white capitalize">
                   first name
                 </label>
-                <div className="mt-1 block w-full px-3 py-2 border border-[#242A32] rounded-md w-[200px] capitalize text-white leading-[20px] text-[14px]">
+                <div className="mt-1 block w-full px-3 py-2 border border-[#242A32] rounded-md capitalize text-white leading-[20px] text-[14px]">
                   john
                 </div>
               </div>
-              <div className="my-3">
+              <div className="my-3 w-full">
                 <label className="font-bold leading-6 text-white capitalize">
                   last name
                 </label>
-                <div className="mt-1 block w-full px-3 py-2 border border-[#242A32] rounded-md w-[200px] capitalize text-white leading-[20px] text-[14px]">
+                <div className="mt-1 block w-full px-3 py-2 border border-[#242A32] rounded-md capitalize text-white leading-[20px] text-[14px]">
                   david
                 </div>
               </div>
             </div>
-            <div className="flex items-center justify-between">
-              <div className="my-3">
+            <div className="flex items-center justify-betweenb gap-10">
+              <div className="my-3 w-full">
                 <label className="font-bold leading-6 text-white capitalize">
                   email address
                 </label>
-                <div className="mt-1 block w-full px-3 py-2 border border-[#242A32] rounded-md w-[200px] capitalize text-white leading-[20px] text-[14px]">
+                <div className="mt-1 block w-full px-3 py-2 border border-[#242A32] rounded-md capitalize text-white leading-[20px] text-[14px]">
                   john@micheal42.com
                 </div>
               </div>
-              <div className="my-3">
+              <div className="my-3 w-full">
                 <label className="font-bold leading-6 text-white capitalize">
                   phone number
                 </label>
-                <div className="mt-1 block w-full px-3 py-2 border border-[#242A32] rounded-md w-[200px] capitalize text-white leading-[20px] text-[14px]">
+                <div className="mt-1 block w-full px-3 py-2 border border-[#242A32] rounded-md capitalize text-white leading-[20px] text-[14px]">
                   +234 914 24456
                 </div>
               </div>
             </div>
-            <div className="flex items-center justify-between">
-              <div className="my-3">
+            <div className="flex items-center justify-between gap-10">
+              <div className="my-3 w-full">
                 <label className="font-bold leading-6 text-white capitalize">
                   date of birth
                 </label>
-                <div className="mt-1 block w-full px-3 py-2 border border-[#242A32] rounded-md w-[200px] capitalize text-white leading-[20px] text-[14px]">
+                <div className="mt-1 block w-full px-3 py-2 border border-[#242A32] rounded-md capitalize text-white leading-[20px] text-[14px]">
                   31 / 01 / 2025
                 </div>
               </div>
-              <div className="my-3">
+              <div className="my-3 w-full">
                 <label className="font-bold leading-6 text-white capitalize">
                   gender
                 </label>
-                <div className="mt-1 block w-full px-3 py-2 border border-[#242A32] rounded-md w-[200px] capitalize text-white leading-[20px] text-[14px]">
+                <div className="mt-1 block w-full px-3 py-2 border border-[#242A32] rounded-md capitalize text-white leading-[20px] text-[14px]">
                   male
                 </div>
               </div>
@@ -99,38 +99,38 @@ const UserProfile: React.FC = () => {
           </h2>
 
           <div>
-            <div className="flex items-center justify-between">
-              <div className="my-3">
+            <div className="flex items-center justify-between gap-10">
+              <div className="my-3 w-full">
                 <label className="font-bold leading-6 text-white capitalize">
                   Registration Date
                 </label>
-                <div className="mt-1 block w-full px-3 py-2 border border-[#242A32] rounded-md w-[200px] capitalize text-white leading-[20px] text-[14px]">
+                <div className="mt-1 block w-full px-3 py-2 border border-[#242A32] rounded-md capitalize text-white leading-[20px] text-[14px]">
                   2024-07-25 10:00 AM
                 </div>
               </div>
-              <div className="my-3">
+              <div className="my-3 w-full">
                 <label className="font-bold leading-6 text-white capitalize">
                   Last Login
                 </label>
-                <div className="mt-1 block w-full px-3 py-2 border border-[#242A32] rounded-md w-[200px] capitalize text-white leading-[20px] text-[14px]">
+                <div className="mt-1 block w-full px-3 py-2 border border-[#242A32] rounded-md capitalize text-white leading-[20px] text-[14px]">
                   2024-07-25 10:00 PM
                 </div>
               </div>
             </div>
-            <div className="flex items-center justify-between">
-              <div className="my-3">
+            <div className="flex items-center justify-between gap-10">
+              <div className="my-3 w-full">
                 <label className="font-bold leading-6 text-white capitalize">
                   role
                 </label>
-                <div className="mt-1 block w-full px-3 py-2 border border-[#242A32] rounded-md w-[200px] capitalize text-white leading-[20px] text-[14px]">
+                <div className="mt-1 block w-full px-3 py-2 border border-[#242A32] rounded-md capitalize text-white leading-[20px] text-[14px]">
                   user
                 </div>
               </div>
-              <div className="my-3">
+              <div className="my-3 w-full">
                 <label className="font-bold leading-6 text-white capitalize">
                   permissions
                 </label>
-                <div className="mt-1 block w-full px-3 py-2 border border-[#242A32] rounded-md w-[200px] capitalize text-white leading-[20px] text-[14px]">
+                <div className="mt-1 block w-full px-3 py-2 border border-[#242A32] rounded-md capitalize text-white leading-[20px] text-[14px]">
                   loan
                 </div>
               </div>
