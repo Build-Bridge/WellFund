@@ -134,26 +134,23 @@ export const Navigation = () => {
             
             {/* User Management */}
             <Link
-              href="/user-management"
+              href="/userManagement"
               passHref
               className={cn(
                 "flex w-full relative rounded-lg items-center gap-2 px-4 py-1",
-                pathname === "/user-management" && "bg-slate-700 text-white"
+                pathname === "/userManagement" && "bg-slate-700 text-white"
               )}
             >
-              {pathname === "/user-management" && (
-                <div className="absolute left-0 h-full w-1 bg-white rounded-r-lg" />
-              )}
               <UserRoundCog
                 className={cn(
                   "w-[18px] h-[18px] text-gray-400",
-                  pathname === "/user-management" && "text-white"
+                  pathname === "/userManagement" && "text-white"
                 )}
               />
               <span
                 className={cn(
                   "text-sm text-gray-400",
-                  pathname === "/user-management" && "text-white"
+                  pathname === "/userManagement" && "text-white"
                 )}
               >
                 User Management
@@ -162,21 +159,18 @@ export const Navigation = () => {
 
             {/* Loan Management */}
             <Link
-              href="/loan-management"
+              href="/loanManagement"
               passHref
               className={cn(
                 "flex w-full relative rounded-lg items-center gap-2 px-4 py-1",
-                pathname === "/loan-management" && "bg-slate-700 text-white"
+                pathname === "/loanManagement" && "bg-slate-700 text-white"
               )}
             >
-              {pathname === "/loan-management" && (
-                <div className="absolute left-0 h-full w-1 bg-white rounded-r-lg" />
-              )}
               <img src="money-bag-01.svg" className="w-[18px] h-[18px]" />
               <span
                 className={cn(
                   "text-sm text-gray-400",
-                  pathname === "/loan-management" && "text-white"
+                  pathname === "/loanManagement" && "text-white"
                 )}
               >
                 Loan Management
@@ -185,21 +179,18 @@ export const Navigation = () => {
 
             {/* Product Management */}
             <Link
-              href="/product-management"
+              href="/productManagement"
               passHref
               className={cn(
                 "flex w-full relative rounded-lg items-center gap-2 px-4 py-1",
-                pathname === "/product-management" && "bg-slate-700 text-white"
+                pathname === "/productManagement" && "bg-slate-700 text-white"
               )}
             >
-              {pathname === "/product-management" && (
-                <div className="absolute left-0 h-full w-1 bg-white rounded-r-lg" />
-              )}
               <img src="product-loading.svg" className="w-[18px] h-[18px]" />
               <span
                 className={cn(
                   "text-sm text-gray-400",
-                  pathname === "/product-management" && "text-white"
+                  pathname === "/productManagement" && "text-white"
                 )}
               >
                 Product Management
@@ -208,21 +199,18 @@ export const Navigation = () => {
 
             {/* Order Management */}
             <Link
-              href="/order-management"
+              href="/orderManagement"
               passHref
               className={cn(
                 "flex w-full relative rounded-lg items-center gap-2 px-4 py-1",
-                pathname === "/order-management" && "bg-slate-700 text-white"
+                pathname === "/orderManagement" && "bg-slate-700 text-white"
               )}
             >
-              {pathname === "/order-management" && (
-                <div className="absolute left-0 h-full w-1 bg-white rounded-r-lg" />
-              )}
               <img src="border-full.svg" className="w-[18px] h-[18px]" />
               <span
                 className={cn(
                   "text-sm text-gray-400",
-                  pathname === "/order-management" && "text-white"
+                  pathname === "/orderManagement" && "text-white"
                 )}
               >
                 Order Management
@@ -231,21 +219,18 @@ export const Navigation = () => {
 
             {/* Financial Management */}
             <Link
-              href="/financial-management"
+              href="/financialManagement"
               passHref
               className={cn(
                 "flex w-full relative rounded-lg items-center gap-2 px-4 py-1",
-                pathname === "/financial-management" && "bg-slate-700 text-white"
+                pathname === "/financialManagement" && "bg-slate-700 text-white"
               )}
             >
-              {pathname === "/financial-management" && (
-                <div className="absolute left-0 h-full w-1 bg-white rounded-r-lg" />
-              )}
               <img src="coins-01.svg" className="w-[18px] h-[18px]" />
               <span
                 className={cn(
                   "text-sm text-gray-400",
-                  pathname === "/financial-management" && "text-white"
+                  pathname === "/financialManagement" && "text-white"
                 )}
               >
                 Financial Management
