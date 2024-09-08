@@ -4,7 +4,12 @@ import EachProduct from './EachProduct'
 const ProductsDisplay = () => {
   return (
     <div className='min-h-dvh'>
-        <EachProduct/>
+      {
+        Array.from({ length: 10 }).map((_, index) => (
+          <EachProduct key={index} />
+        ))
+      }
+        {/* <EachProduct/> */}
     </div>
   )
 }
