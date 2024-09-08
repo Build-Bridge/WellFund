@@ -158,7 +158,7 @@ export const Navigation = () => {
             </Link>
 
             {/* Loan Management */}
-            <Link
+            {/* <Link
               href="/loanManagement"
               passHref
               className={cn(
@@ -175,7 +175,7 @@ export const Navigation = () => {
               >
                 Loan Management
               </span>
-            </Link>
+            </Link> */}
 
             {/* Product Management */}
             <Link
@@ -218,7 +218,7 @@ export const Navigation = () => {
             </Link>
 
             {/* Financial Management */}
-            <Link
+            {/* <Link
               href="/financialManagement"
               passHref
               className={cn(
@@ -235,7 +235,7 @@ export const Navigation = () => {
               >
                 Financial Management
               </span>
-            </Link>
+            </Link> */}
 
           </div>
         </div>
