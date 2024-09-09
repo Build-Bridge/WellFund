@@ -1,5 +1,6 @@
 import React from 'react'
 import EachProduct from './EachProduct'
+import ProductModal from './ProductModal'
 
 const ProductsDisplay = () => {
   return (
@@ -9,7 +10,7 @@ const ProductsDisplay = () => {
           <EachProduct key={index} />
         ))
       }
-        {/* <EachProduct/> */}
+        <ProductModal/>
     </div>
   )
 }
