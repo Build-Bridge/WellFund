@@ -3,10 +3,10 @@ import React from 'react'
 const EachProduct = () => {
   return (
     <div className='w-full h-full flex flex-col gap-5 p-3 bg-[#0E0F1D] bg-opacity-65 rounded-lg'>
-        <div className='flex gap-5 items-center justify-between w-full h-fit py-2'>
+        <div className='flex gap-5 justify-between w-full h-fit py-2'>
             <div className='flex items-end gap-1 h-fit w-full'>
                 <img src={'/prd1.svg'} alt="" />
-                <div className='p t-5'>
+                <div className='pt-5'>
                     <h1 className='text-white text-[14px] leading-[20px] font-bold'>Aspirin</h1>
                     <small>M8N7R6J2</small>
                 </div>
