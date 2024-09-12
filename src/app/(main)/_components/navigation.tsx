@@ -18,7 +18,7 @@ export const Navigation = () => {
   return (
    
     <aside className="group/sidebar relative w-auto overflow-y-auto flex h-screen justify-between p-3 flex-col z-[30] bg-[#242A32]">
-      <div className="w-full flex text-center text-white font-semibold text-xl">
+      <div className="text-center text-white font-semibold text-xl">
         WellFund
       </div>
       <div className="flex flex-col w-full text-[#546175] items-center text-sm tracking-wide">
@@ -312,9 +312,6 @@ export const Navigation = () => {
                 pathname === "/settings" && "bg-slate-700 text-white"
               )}
             >
-              {pathname === "/settings" && (
-                <div className="absolute left-0 h-full w-1 bg-white rounded-r-lg" />
-              )}
               <Settings
                 className={cn(
                   "w-[18px] h-[18px] text-gray-400",
