@@ -17,7 +17,7 @@ export const Navigation = () => {
 
   return (
    
-    <aside className="group/sidebar w-auto overflow-y-auto flex min-h-dvh justify-between p-3 flex-col z-[30] bg-[#242A32] sticky top-0 left-0 bottom-0">
+    <aside className="group/sidebar relative w-auto overflow-y-auto flex h-screen justify-between p-3 flex-col z-[30] bg-[#242A32]">
       <div className="w-full flex text-center text-white font-semibold text-xl">
         WellFund
       </div>
