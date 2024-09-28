@@ -32,11 +32,11 @@ const EachProduct = () => {
         <div className='flex justify-between p-3 rounded-lg m-2 bg-[#242A32]'>
             <div className='flex items-start gap-1'>
                 <img src={'/location.svg'} alt="" />
-                <p className='text-[#242A32] leading-[14.4px] text-white text-[12px]'>Starlabs Pharmacy LTD</p>
+                <p className='text-[#242A32] leading-[14.4px] text-[12px]'>Starlabs Pharmacy LTD</p>
             </div>
             <div  className='flex items-start gap-1'>
                 <img src={'/package.svg'} alt="" />
-                <p className='text-[#242A32] leading-[14.4px] text-white text-[12px]'>12 Product in stock</p>
+                <p className='text-[#242A32] leading-[14.4px] text-[12px]'>12 Product in stock</p>
             </div>
             <div className="flex items-center gap-1">
                   <img src={"/active.svg"} alt="" />
