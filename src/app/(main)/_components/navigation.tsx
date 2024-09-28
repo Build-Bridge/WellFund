@@ -1,13 +1,13 @@
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 import {
-  AlignStartVertical,
   ChartNoAxesColumn,
   Headset,
   LayoutDashboard,
   Settings,
   UserRoundCog,
-  ChartNoAxesCombined
+  ChartNoAxesCombined,
+  Upload
 } from "lucide-react";
 import { usePathname } from "next/navigation";
 
@@ -97,31 +97,28 @@ export const Navigation = () => {
             </span>
           </Link>
 
-          {/* Layouts */}
+          {/* uploadProduct */}
           <Link
-            href="/layouts"
+            href="/uploadProduct"
             passHref
             className={cn(
               "flex w-full relative rounded-lg items-center gap-2 px-4 py-1",
-              pathname === "/layouts" && "bg-slate-700 text-white"
+              pathname === "/uploadProduct" && "bg-slate-700 text-white"
             )}
           >
-            {pathname === "/layouts" && (
-              <div className="absolute left-0 h-full w-1 bg-white rounded-r-lg" />
-            )}
-            <AlignStartVertical
+            <Upload
               className={cn(
                 "w-[18px] h-[18px] text-gray-400",
-                pathname === "/layouts" && "text-white"
+                pathname === "/uploadProduct" && "text-white"
               )}
             />
             <span
               className={cn(
                 "text-sm text-gray-400",
-                pathname === "/layouts" && "text-white"
+                pathname === "/uploadProduct" && "text-white"
               )}
             >
-              Layouts
+              Upload Product
             </span>
           </Link>
 
@@ -284,9 +281,6 @@ export const Navigation = () => {
                 pathname === "/support-feedback" && "bg-slate-700 text-white"
               )}
             >
-              {pathname === "/support-feedback" && (
-                <div className="absolute left-0 h-full w-1 bg-white rounded-r-lg" />
-              )}
               <Headset
                 className={cn(
                   "w-[18px] h-[18px] text-gray-400",
