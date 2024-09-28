@@ -118,7 +118,7 @@ export const Navigation = () => {
                 pathname === "/uploadProduct" && "text-white"
               )}
             >
-              uploadProduct
+              Upload Product
             </span>
           </Link>
 
