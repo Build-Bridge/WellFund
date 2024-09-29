@@ -57,7 +57,7 @@ export const OrderCard: React.FC<CardProps> = ({
                 <img src="logout-03.svg" className="w-[18px] h-[18px]" />
               </Button>
             </SheetClose>
-            <Button variant="ghost" size="sm" className="border">
+            <Button variant="ghost" size="sm" className="border text-white">
               Edit
             </Button>
           </SheetHeader>
